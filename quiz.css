@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: skyblue;
+    
+}
+
+.quizzica{
+    display: grid;
+  place-items: center;
+}
+/* display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+#04AA6D
+*/
+
+.quizzica--btn {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    letter-spacing: .04em;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(44, 44, 116);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 9px #999;
+  }
+
+.quizzica--btn:hover {background-color: rgb(4, 4, 71)}
+
+.quizzica--btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.quiz--btn {
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+
+}
+
+.btn {
+    display: inline-block;
+    background-color: initial;
+    background-image: linear-gradient(rgba(179, 132, 201, .84), rgba(57, 31, 91, .84) 50%);
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    letter-spacing: .04em;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+}
+.btn:hover {background-color: rgb(4, 4, 71)}
+
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 2px burlywood;
+  transform: translateY(4px);
+}
+
+/* .active--btn {
+
+} */
+
+
+
+/* CSS */
+.button-72 {
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(rgba(179, 132, 201, .84), rgba(57, 31, 91, .84) 50%);
+  border-radius: 42px;
+  border-width: 0;
+  box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,rgba(179, 132, 201, 0.4) 0 8px 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: flex;
+  font-family: Quicksand,sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: .04em;
+  line-height: 16px;
+  margin: 0;
+  padding: 18px 18px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,rgba(255, 255, 255, 0.2) 0 0 12px,rgba(57, 31, 91, 0.6) 1px 1px 4px,rgba(57, 31, 91, 0.32) 4px 4px 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+}
+
+.button-72:hover {
+  background-image: linear-gradient(#B384C9, #391F5B 50%);
+}
+
+@media (min-width: 768px) {
+  .button-72 {
+    font-size: 21px;
+    padding: 18px 34px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
